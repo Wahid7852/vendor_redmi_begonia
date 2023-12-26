@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/redmi/begonia
 
 PRODUCT_COPY_FILES += \
-    vendor/redmi/begonia/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
     vendor/redmi/begonia/proprietary/lib/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_param_parser-sys.so \
     vendor/redmi/begonia/proprietary/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiotoolkit.so \
     vendor/redmi/begonia/proprietary/lib/libaudioutilmtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioutilmtk.so \
